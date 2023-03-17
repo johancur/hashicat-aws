@@ -13,7 +13,14 @@ variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
 }
-
+variable "AWS_ACCESS_KEY_ID" {
+  description = "The region where the resources are created."
+  default     = "AKIAYPBRJNVLLHZTWPDE"
+}
+variable "aws_secret" {
+  description = "The region where the resources are created."
+  default     = "F90sG1sZbwLmhKVAfd1jZIcC48RR9qlhj0QpKvLC"
+}
 variable "address_space" {
   description = "The address space that is used by the virtual network. You can supply more than one address space. Changing this forces a new resource to be created."
   default     = "10.0.0.0/16"
